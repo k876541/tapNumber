@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		D412BAA3261A183D0035CCD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BAA2261A183D0035CCD0 /* AppDelegate.swift */; };
 		D412BAA5261A183D0035CCD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BAA4261A183D0035CCD0 /* SceneDelegate.swift */; };
-		D412BAA7261A183D0035CCD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BAA6261A183D0035CCD0 /* ViewController.swift */; };
 		D412BAAA261A183D0035CCD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D412BAA8261A183D0035CCD0 /* Main.storyboard */; };
 		D412BAAC261A183F0035CCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D412BAAB261A183F0035CCD0 /* Assets.xcassets */; };
 		D412BAAF261A183F0035CCD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D412BAAD261A183F0035CCD0 /* LaunchScreen.storyboard */; };
+		D412BAB7261A184C0035CCD0 /* tapNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BAB6261A184C0035CCD0 /* tapNumberViewController.swift */; };
+		D412BAB9261A20930035CCD0 /* finalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BAB8261A20930035CCD0 /* finalViewController.swift */; };
+		D4D7F8C0261EF53600C42D49 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4D7F8BF261EF53600C42D49 /* wrong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D412BA9F261A183D0035CCD0 /* tapNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D412BAA2261A183D0035CCD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D412BAA4261A183D0035CCD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D412BAA6261A183D0035CCD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D412BAA9261A183D0035CCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D412BAAB261A183F0035CCD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D412BAAE261A183F0035CCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D412BAB0261A183F0035CCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D412BAB6261A184C0035CCD0 /* tapNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapNumberViewController.swift; sourceTree = "<group>"; };
+		D412BAB8261A20930035CCD0 /* finalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalViewController.swift; sourceTree = "<group>"; };
+		D4D7F8BF261EF53600C42D49 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				D412BAA2261A183D0035CCD0 /* AppDelegate.swift */,
 				D412BAA4261A183D0035CCD0 /* SceneDelegate.swift */,
-				D412BAA6261A183D0035CCD0 /* ViewController.swift */,
 				D412BAA8261A183D0035CCD0 /* Main.storyboard */,
 				D412BAAB261A183F0035CCD0 /* Assets.xcassets */,
+				D4D7F8BF261EF53600C42D49 /* wrong.mp3 */,
 				D412BAAD261A183F0035CCD0 /* LaunchScreen.storyboard */,
 				D412BAB0261A183F0035CCD0 /* Info.plist */,
+				D412BAB6261A184C0035CCD0 /* tapNumberViewController.swift */,
+				D412BAB8261A20930035CCD0 /* finalViewController.swift */,
 			);
 			path = tapNumber;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D7F8C0261EF53600C42D49 /* wrong.mp3 in Resources */,
 				D412BAAF261A183F0035CCD0 /* LaunchScreen.storyboard in Resources */,
 				D412BAAC261A183F0035CCD0 /* Assets.xcassets in Resources */,
 				D412BAAA261A183D0035CCD0 /* Main.storyboard in Resources */,
@@ -137,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D412BAA7261A183D0035CCD0 /* ViewController.swift in Sources */,
+				D412BAB7261A184C0035CCD0 /* tapNumberViewController.swift in Sources */,
+				D412BAB9261A20930035CCD0 /* finalViewController.swift in Sources */,
 				D412BAA3261A183D0035CCD0 /* AppDelegate.swift in Sources */,
 				D412BAA5261A183D0035CCD0 /* SceneDelegate.swift in Sources */,
 			);
